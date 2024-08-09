@@ -1,0 +1,88 @@
+# Arquivos compilados
+/dist
+/tmp
+/out-tsc
+
+# Dados em tempo de execução
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Diretório para bibliotecas instrumentadas geradas pelo jscoverage/JSCover
+lib-cov
+
+# Diretório de cobertura usado por ferramentas como istanbul
+coverage
+
+# Cobertura de testes do nyc
+.nyc_output
+
+# Armazenamento intermediário do Grunt
+.grunt
+
+# Diretório de dependências do Bower
+bower_components
+
+# Configuração do node-waf
+.lock-wscript
+
+# IDEs e editores
+.idea
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# Miscelânea
+.sass-cache
+connect.lock
+typings
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Diretórios de dependências
+node_modules/
+jspm_packages/
+
+# Diretório opcional de cache do npm
+.npm
+
+# Cache opcional do eslint
+.eslintcache
+
+# Histórico opcional do REPL
+.node_repl_history
+
+# Saída do 'npm pack'
+*.tgz
+
+# Arquivo de integridade do Yarn
+.yarn-integrity
+
+# Arquivo de variáveis de ambiente dotenv
+.env
+
+# Saída de compilação do next.js
+.next
+
+# Lerna
+lerna-debug.log
+
+# Arquivos do sistema
+.DS_Store
+Thumbs.db
